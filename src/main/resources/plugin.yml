@@ -1,0 +1,14 @@
+name: Testes
+version: '${project.version}'
+main: com.decay.testes.Testes
+api-version: 1.18
+commands:
+  clearinv:
+    description: Limpa o inventário do jogador
+    usage: /<command>
+  heal:
+    description: Regenera completamente a vida do jogador
+    usage: /<command>
+  feed:
+    description: Sacia completamente a fome do jogador
+    usage: /<command>
